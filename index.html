@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prashanth's Resume</title>
+    <style>
+        /* Global Styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            color: #fff;
+            background: linear-gradient(45deg, #ff008c, #ff8c00, #ff00d4, #5900b3);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        h1, h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .contact-info {
+            margin: 20px 0;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+            font-size: 1.1rem;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #ff8c00;
+        }
+
+        .tools-list, .deliverables-list {
+            list-style-type: none;
+            padding-left: 0;
+            font-size: 1.1rem;
+        }
+
+        .tools-list li, .deliverables-list li {
+            margin: 5px 0;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Prashanth's Resume</h1>
+    
+    <!-- Contact Information -->
+    <div class="contact-info">
+        <p><strong>Name:</strong> Prashanth</p>
+        <p><strong>Mobile Number:</strong> 7093371821</p>
+        <p><strong>Email:</strong> <a href="mailto:projects2488@gmail.com" style="color: #ff8c00;">projects2488@gmail.com</a></p>
+    </div>
+    
+    <!-- Professional Summary -->
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <p>I am a DevOps Engineer with 5 years of expertise working in product-based companies. I have a deep understanding of multi-cloud environments, DevOps tools, and methodologies. I am passionate about automation, cloud infrastructure, and improving the software development lifecycle through DevOps practices.</p>
+    </div>
+    
+    <!-- Career Contour -->
+    <div class="section">
+        <div class="section-title">Career Contour</div>
+        <p>During my career, I have had the opportunity to work on several high-impact projects, collaborating closely with cross-functional teams to implement automation pipelines, cloud infrastructure, and CI/CD workflows. I have gained expertise in deploying scalable applications and managing cloud resources across different platforms like AWS, Azure, and GCP.</p>
+    </div>
+    
+    <!-- Key Deliverables -->
+    <div class="section">
+        <div class="section-title">Key Deliverables</div>
+        <ul class="deliverables-list">
+            <li>Automated end-to-end CI/CD pipeline for multiple microservices using Jenkins, GitLab CI, and Kubernetes.</li>
+            <li>Managed cloud infrastructure across AWS, Azure, and GCP, optimizing cost and performance.</li>
+            <li>Developed and maintained Docker containerization strategies, improving deployment speed.</li>
+            <li>Improved system reliability and uptime by implementing monitoring and alerting with Prometheus and Grafana.</li>
+            <li>Collaborated with development teams to ensure smooth and efficient release cycles.</li>
+        </ul>
+    </div>
+
+    <!-- Tools -->
+    <div class="section">
+        <div class="section-title">Key Tools</div>
+        <ul class="tools-list">
+            <li>AWS, Azure, GCP</li>
+            <li>Jenkins, GitLab CI</li>
+            <li>Kubernetes, Docker</li>
+            <li>Terraform, Ansible</li>
+            <li>Prometheus, Grafana</li>
+            <li>Git, GitHub, GitLab</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

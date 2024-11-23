@@ -3,156 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Prashanth's Resume</title>
+    <title>Prashanth - DevOps Engineer Resume</title>
     <style>
-        /* Global Styles */
-        body, html {
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
-            height: 100%;
-            color: #fff;
-            background: linear-gradient(45deg, #ff008c, #ff8c00, #ff00d4, #5900b3);
-            background-size: 400% 400%;
-            animation: gradientAnimation 10s ease infinite;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
         }
-
-        @keyframes gradientAnimation {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-
         .container {
-            width: 90%;
-            max-width: 1000px;
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
             padding: 20px;
-            background: rgba(0, 0, 0, 0.6);
-            border-radius: 15px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
-        h1, h2 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
+        h1, h2, h3 {
+            color: #2c3e50;
         }
-
-        h2 {
-            font-size: 2rem;
-            margin-top: 0;
-        }
-
-        p {
-            font-size: 1.2rem;
-            line-height: 1.6;
-            margin: 10px 0;
-        }
-
         .contact-info {
-            margin: 20px 0;
+            margin-bottom: 20px;
         }
-
         .contact-info p {
             margin: 5px 0;
-            font-size: 1.1rem;
         }
-
-        .section {
-            margin-bottom: 30px;
-            padding: 10px;
-            background-color: rgba(255, 255, 255, 0.2);
-            border-radius: 8px;
-        }
-
         .section-title {
-            font-size: 1.5rem;
-            font-weight: bold;
+            background-color: #2980b9;
+            color: #fff;
+            padding: 5px;
             margin-bottom: 10px;
-            color: #ff8c00;
+            font-size: 18px;
+            font-weight: bold;
         }
-
-        .tools-list, .deliverables-list {
+        .skills, .experience, .education, .certifications {
+            margin-bottom: 20px;
+        }
+        ul {
             list-style-type: none;
-            padding-left: 0;
-            font-size: 1.1rem;
+            padding: 0;
         }
-
-        .tools-list li, .deliverables-list li {
+        ul li {
             margin: 5px 0;
         }
-
-        /* Responsive styles */
-        @media (max-width: 768px) {
-            .container {
-                padding: 15px;
-            }
-
-            h1 {
-                font-size: 2rem;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
+        .key-deliverables ul {
+            list-style-type: disc;
+            margin-left: 20px;
         }
-
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>Prashanth's Resume</h1>
-    
-    <!-- Contact Information -->
-    <div class="contact-info">
-        <p><strong>Name:</strong> Prashanth</p>
-        <p><strong>Mobile Number:</strong> 7093371821</p>
-        <p><strong>Email:</strong> <a href="mailto:projects2488@gmail.com" style="color: #ff8c00;">projects2488@gmail.com</a></p>
-    </div>
-    
-    <!-- Professional Summary -->
-    <div class="section">
-        <div class="section-title">Professional Summary</div>
-        <p>I am a DevOps Engineer with 5 years of expertise working in product-based companies. I have a deep understanding of multi-cloud environments, DevOps tools, and methodologies. I am passionate about automation, cloud infrastructure, and improving the software development lifecycle through DevOps practices.</p>
-    </div>
-    
-    <!-- Career Contour -->
-    <div class="section">
-        <div class="section-title">Career Contour</div>
-        <p>During my career, I have had the opportunity to work on several high-impact projects, collaborating closely with cross-functional teams to implement automation pipelines, cloud infrastructure, and CI/CD workflows. I have gained expertise in deploying scalable applications and managing cloud resources across different platforms like AWS, Azure, and GCP.</p>
-    </div>
-    
-    <!-- Key Deliverables -->
-    <div class="section">
-        <div class="section-title">Key Deliverables</div>
-        <ul class="deliverables-list">
-            <li>Automated end-to-end CI/CD pipeline for multiple microservices using Jenkins, GitLab CI, and Kubernetes.</li>
-            <li>Managed cloud infrastructure across AWS, Azure, and GCP, optimizing cost and performance.</li>
-            <li>Developed and maintained Docker containerization strategies, improving deployment speed.</li>
-            <li>Improved system reliability and uptime by implementing monitoring and alerting with Prometheus and Grafana.</li>
-            <li>Collaborated with development teams to ensure smooth and efficient release cycles.</li>
-        </ul>
-    </div>
+    <div class="container">
+        <h1>Prashanth</h1>
+        <h2>DevOps Engineer</h2>
+        
+        <div class="contact-info">
+            <p><strong>Mobile:</strong> 7093371821</p>
+            <p><strong>Email:</strong> <a href="mailto:projects2488@gmail.com">projects2488@gmail.com</a></p>
+        </div>
 
-    <!-- Tools -->
-    <div class="section">
-        <div class="section-title">Key Tools</div>
-        <ul class="tools-list">
-            <li>AWS, Azure, GCP</li>
-            <li>Jenkins, GitLab CI</li>
-            <li>Kubernetes, Docker</li>
-            <li>Terraform, Ansible</li>
-            <li>Prometheus, Grafana</li>
-            <li>Git, GitHub, GitLab</li>
+        <div class="section-title">Professional Summary</div>
+        <p>DevOps Engineer with 5 years of hands-on experience in building and automating scalable infrastructure in multi-cloud environments. Skilled in the use of DevOps tools, CI/CD pipelines, and automation frameworks to drive continuous integration and continuous deployment. Adept at streamlining workflows and improving system reliability and performance, while ensuring seamless collaboration between development and operations teams. Proven track record in deploying and managing infrastructure on AWS, Azure, and GCP.</p>
+
+        <div class="section-title">Key Skills</div>
+        <ul>
+            <li><strong>Cloud Platforms:</strong> AWS, Azure, Google Cloud Platform (GCP)</li>
+            <li><strong>Automation & Configuration Management:</strong> Jenkins, GitLab CI, Terraform, Ansible</li>
+            <li><strong>Containerization & Orchestration:</strong> Docker, Kubernetes</li>
+            <li><strong>Version Control & Source Code Management:</strong> Git, GitHub, GitLab</li>
+            <li><strong>Monitoring & Logging:</strong> Prometheus, Grafana, ELK Stack</li>
+            <li><strong>Scripting & Programming:</strong> Bash, Python, Shell Scripting</li>
+            <li><strong>Infrastructure as Code (IaC):</strong> Terraform, AWS CloudFormation</li>
+            <li><strong>CI/CD:</strong> Jenkins, GitLab CI, CircleCI, Azure DevOps</li>
+            <li><strong>Security & Compliance:</strong> Vulnerability Scanning, Security Auditing</li>
         </ul>
+
+        <div class="section-title">Professional Experience</div>
+        
+        <h3>DevOps Engineer</h3>
+        <p><strong>Product-based Company</strong> | Location | 2019 – Present</p>
+        <ul>
+            <li>Designed and implemented CI/CD pipelines using Jenkins and GitLab CI, automating deployment cycles, and increasing delivery speed by 40%.</li>
+            <li>Managed and optimized infrastructure in multi-cloud environments (AWS, Azure, GCP), focusing on cost-efficiency and scalability.</li>
+            <li>Orchestrated containerized applications using Kubernetes and Docker, improving application deployment times and reducing resource consumption.</li>
+            <li>Developed Infrastructure as Code (IaC) using Terraform to provision and manage cloud resources, ensuring repeatability and version control for cloud environments.</li>
+            <li>Integrated monitoring and alerting systems using Prometheus and Grafana to ensure high availability and proactive issue resolution.</li>
+            <li>Collaborated with cross-functional teams to streamline development processes, reducing manual interventions and improving deployment reliability.</li>
+            <li>Implemented security best practices, including vulnerability assessments and automated patch management, to enhance system security and compliance.</li>
+        </ul>
+        
+        <h3>Junior DevOps Engineer</h3>
+        <p><strong>Tech Solutions Ltd.</strong> | Location | 2018 – 2019</p>
+        <ul>
+            <li>Assisted in the creation of CI/CD pipelines for web applications, reducing deployment errors and increasing system reliability.</li>
+            <li>Worked on Docker containerization, improving developer efficiency by ensuring consistency across various environments.</li>
+            <li>Supported the migration of legacy applications to AWS, facilitating a smoother transition to cloud-based infrastructure.</li>
+            <li>Automated various processes and scripts to improve system performance and reduce operational overhead.</li>
+            <li>Provided 24/7 on-call support for critical production environments, identifying and resolving issues with minimal downtime.</li>
+        </ul>
+
+        <div class="section-title">Education</div>
+        <p><strong>Bachelor of Technology in Computer Science</strong><br>University Name, Location | Graduation Year</p>
+
+        <div class="section-title">Certifications</div>
+        <ul>
+            <li>AWS Certified Solutions Architect – Associate</li>
+            <li>Certified Kubernetes Administrator (CKA)</li>
+            <li>HashiCorp Certified: Terraform Associate</li>
+            <li>Microsoft Certified: Azure Fundamentals</li>
+        </ul>
+
+        <div class="section-title">Key Deliverables</div>
+        <div class="key-deliverables">
+            <ul>
+                <li><strong>CI/CD Automation:</strong> Developed and maintained automated CI/CD pipelines for multiple microservices, reducing manual intervention and speeding up release cycles.</li>
+                <li><strong>Cloud Infrastructure Management:</strong> Provisioned and maintained scalable cloud infrastructure across AWS, Azure, and GCP, ensuring optimized cost and high availability.</li>
+                <li><strong>Containerization:</strong> Containerized multiple legacy applications using Docker and orchestrated them with Kubernetes for easy scaling and management.</li>
+                <li><strong>Monitoring & Incident Response:</strong> Set up real-time monitoring and alerting systems, improving system uptime and reducing troubleshooting time by 30%.</li>
+                <li><strong>Cost Optimization:</strong> Conducted regular cost analysis and optimization of cloud resources, reducing overall expenditure by 25% annually.</li>
+            </ul>
+        </div>
+
+        <div class="section-title">Tools & Technologies</div>
+        <ul>
+            <li><strong>Cloud:</strong> AWS, Azure, GCP</li>
+            <li><strong>CI/CD:</strong> Jenkins, GitLab CI, CircleCI, Azure DevOps</li>
+            <li><strong>Containerization:</strong> Docker, Kubernetes</li>
+            <li><strong>Infrastructure as Code (IaC):</strong> Terraform, AWS CloudFormation</li>
+            <li><strong>Monitoring & Logging:</strong> Prometheus, Grafana, ELK Stack</li>
+            <li><strong>Version Control:</strong> Git, GitHub, GitLab</li>
+            <li><strong>Automation & Scripting:</strong> Ansible, Python, Bash</li>
+        </ul>
+
+        <div class="footer">
+            <p>References available upon request.</p>
+        </div>
     </div>
-</div>
 
 </body>
 </html>
